@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+       
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    height: 600px;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    align-items: center;
+}
+ul {
+    display: flex;    
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    width: 700px;
+    font-family: 500 medium;
+}
+img .kenziflix {
+    align-items: center; 
+}
+h2 {
+    color: rgb(24, 23, 23);
+    align-content: center;
+    position: relative;
+    text-indent: 5%;
+
+    
+}
+li :hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    border-radius: 20px;
+    border: 20px;
+    width: 160px;
+    
+
+}
+ul .logotipo {
+justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.Aline{
+    width: 160px;
+    margin: 5px;
+    padding: 5px;
+    font-size: medium;
+}
+.Pedrinho{
+    width: 160px;
+    margin: 5px;
+    padding: 5px;
+    font-size: medium;
+}
+.Julia{
+    width: 160px;
+    margin: 5px;
+    padding: 5px;
+}
+.Adicionar {
+    width: 160px;
+    margin: 5px;
+    padding: 5px;
+}
+button {
+    background-color: rgb(24, 23, 23);
+    color: white;
+    margin: 150px solid white ;
+    border-radius: solid 20px #FFFFFF;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    
+}
+div .botao {
+    align-items: center; 
+    justify-content: center;
+    flex-direction: row;
+
+}
